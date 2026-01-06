@@ -2,6 +2,11 @@
 asm330_imu_lkm is a linux kernel module for asm330lhh 6-DOF imu sensor driver. This project was built driven by the passion of learning how to write linux kernel module, as well as supporting my capstone project's imu on linux platform. The driver registers a spi device and an industrial io device on the host linux machine to provide real-time imu raw data reading.\
 While the specific installation process may differ across various platforms, this README provides detailed instructions for correctly installing and utilizing the driver on Raspberry Pi 5. 
 
+## Architecture ASM330LHH IMU Driver Flow
+<img width="1560" height="2789" alt="image" src="https://github.com/user-attachments/assets/dd16f3e4-cde4-4546-9d5f-02eb1101e708" />
+
+
+
 ## Module Compilation and Install
 1. First and foremost, before you build the kernel module, you must ensure the kmod package is installed. It essentially allows you to interact with the kernel module on your system.
 ```
