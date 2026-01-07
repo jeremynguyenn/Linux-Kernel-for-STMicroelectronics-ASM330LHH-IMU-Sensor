@@ -1,7 +1,7 @@
 /*
  * ASM330LHH IMU Driver
- * Author: Hardy Yu
- * Date: Mar 8, 2025
+ * Author: Nguyen Nhan
+ * Date: Jan 1, 2026
  * Description: An IIO-based driver for the ASM330LHH 6-DOF sensor using SPI.
  * Enhanced with FIFO, interrupt, scaling, and sampling frequency support.
  */
