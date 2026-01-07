@@ -3,7 +3,7 @@
  * @file    asm330lhh_reg.c
  * @author  Nguyen Nhan
  * @brief   ASM330LHH driver file
-/*
+*/
 
 
 #include "asm330lhh_reg.h"
